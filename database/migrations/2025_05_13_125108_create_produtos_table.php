@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('nome', 100);
-            $table->decimal('preco', 10, );
-            $table->decimal('estoque', 10, 3);
+            $table->decimal('preco', 10, 2);
+            $table->integer('estoque');
         });
     }
 
