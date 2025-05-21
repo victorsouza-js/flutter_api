@@ -9,25 +9,19 @@ use Illuminate\Http\Response;
 
 class ProdutoController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+
     public function index()
     {
         return Produto::all();
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
+
     public function create()
     {
         //
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
+
     public function store(StoreProdutoRequest $request)
     {
         $dadosValidados = $request->validated();
