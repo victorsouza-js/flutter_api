@@ -33,9 +33,7 @@ class ProdutoController extends Controller
         ], Response::HTTP_OK);
     }
 
-    /**
-     * Display the specified resource.
-     */
+
     public function show(Produto $produto)
     {
         //
