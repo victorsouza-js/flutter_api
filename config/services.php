@@ -35,4 +35,12 @@ return [
         ],
     ],
 
+    'github' => [
+    'client_id' => env('Ov23liJkBo01kQNQR0Bq'),
+    'client_secret' => env('9db63a165e515fa8daf0bce8a8cd56cffa29facb'),
+    'redirect' => env('http://localhost:8000/auth/github/callback'), // URL de redirecionamento para o Flutter
+
+],
+
+
 ];
