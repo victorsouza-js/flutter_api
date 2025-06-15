@@ -8,7 +8,7 @@ use Illuminate\Http\Exceptions\HttpResponseException;
 
 class UpdateProdutoRequest extends FormRequest
 {
-   
+
     public function authorize(): bool
     {
         return true;

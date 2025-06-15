@@ -13,6 +13,7 @@ class UserController extends Controller
     public function login(Request $request)
     {
         $request->only([
+            'name',
             'email',
             'password'
         ]);
